@@ -20,7 +20,7 @@ RUN yarn install
 RUN yarn build
 
 # Expose the port that your Vite.js app is running on
-EXPOSE 5173
+EXPOSE 5174
 
 # Command to run your application in production mode
 CMD ["yarn", "dev"]

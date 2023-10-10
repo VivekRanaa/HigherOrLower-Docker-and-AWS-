@@ -4,8 +4,8 @@ import {defineConfig} from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    host: '0.0.0.0', // Allow access from outside the container
-    port: 5173, // Set the port to match your Vite.js application
+    host: true, // Allow access from outside the container
+    port: '5173', // Set the port to match your Vite.js application
   },
   plugins: [react()],
   build: {
